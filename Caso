@@ -9,7 +9,7 @@ actor Impresora
 
 SistemaDeAutenticacion --|> Profesor : Identificación del Profesor
 
-Profesor --> (Completar Acta con Notas)
+Profesor --> (Completar Acta con Notas)  
 Profesor --> (Añadir/Borrar Alumno en Acta)
 Profesor --> (Integrar Actas de Grupos)
 Profesor --> (Consultar Información del Alumno)
